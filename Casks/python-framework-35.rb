@@ -1,8 +1,6 @@
 cask 'python-framework-35' do
-  # note: "3" is a trailing version number on the Cask token, which
-  # breaks our own token conventions, for consistency with Homebrew
-  version '3.5.1'
-  sha256 '1f3c070b9005e894eddc23120ddf1d2c5f82977ebb43e1a89ca4a2fbfac8caf4'
+  version '3.5.4'
+  sha256 '6209c690925c0826fa767b7c9581b8ebe556160e1eac7a0dbd13500870a097a2'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.6.pkg"
   name 'Python'
