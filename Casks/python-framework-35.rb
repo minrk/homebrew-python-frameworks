@@ -5,7 +5,6 @@ cask 'python-framework-35' do
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.6.pkg"
   name 'Python'
   homepage 'https://www.python.org/'
-  license :oss
 
   pkg "python-#{version}-macosx10.6.pkg"
 
