@@ -1,11 +1,10 @@
-cask :v1 => 'python-framework-32'
+cask 'python-framework-32' do
   version '3.2.5'
   sha256 '581abb199d40271dbb68a8de4f1e4d5a1a7ab45cae8e817a2d9532be7a26a164'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.6.dmg"
   name 'Python'
   homepage 'http://www.python.org/'
-  license :oss
 
   pkg 'Python.mpkg'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'python-framework-33' do
+cask 'python-framework-33' do
   version '3.3.5'
   sha256 '7e59f823f82da5ec7e2af4449a5e33c09f5b755a8acd9cec98371da8c2b2b52b'
 

@@ -1,10 +1,9 @@
-cask :v1 => 'python-framework-25' do
+cask 'python-framework-25' do
   version '2.5.4'
   sha256 '8a56b4ea88d183cad006c52c1125bb460f77e543c1e691355828e7875fb41e0c'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx.dmg"
   homepage 'http://www.python.org/'
-  license :oss
 
   pkg 'MacPython.mpkg'
 
