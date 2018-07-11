@@ -1,6 +1,6 @@
 cask 'python-framework-36' do
-  version '3.6.4'
-  sha256 'e56a7e1949ded8ae25f29713911ec4b470817ccba26a752dd0b0445378efbbf0'
+  version '3.6.6'
+  sha256 'd56a24b3dd23e261467a2094c6d4efce22a7eddd62fd8eae24d3f1f4590c55c2'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.6.pkg"
   name 'Python'
