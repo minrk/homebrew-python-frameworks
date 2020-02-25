@@ -8,6 +8,10 @@ cask 'python-framework-27' do
 
   pkg "python-#{version}-macosx10.6.pkg"
 
+  postflight do
+    system_command "/Applications/Python #{version.slice(%r{\d+\.\d+})}/Install Certificates.command"
+  end
+
   uninstall delete: [
                       "/Library/Receipts/Python*-#{version.slice(%r{\d+\.\d+})}.pkg",
                       "/Applications/Python #{version.slice(%r{\d+\.\d+})}",

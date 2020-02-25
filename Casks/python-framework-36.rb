@@ -8,6 +8,10 @@ cask 'python-framework-36' do
 
   pkg "python-#{version}-macosx10.6.pkg"
 
+  postflight do
+    system_command "/Applications/Python #{version.slice(%r{\d+\.\d+})}/Install Certificates.command"
+  end
+
   uninstall pkgutil: [
                        "org.python.Python.PythonApplications-#{version.slice(%r{\d+\.\d+})}",
                        "org.python.Python.PythonDocumentation-#{version.slice(%r{\d+\.\d+})}",
