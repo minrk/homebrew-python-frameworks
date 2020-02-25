@@ -1,6 +1,6 @@
 cask 'python-framework-38' do
-  version '3.8.0'
-  sha256 '30961fe060da9dc5afdc4e789a57fe9bcc0d20244474e9f095d7bfc89d2e1869'
+  version '3.8.1'
+  sha256 'd84c0e8bfd901dbfda30a19ca6bec09dd794c505333d22bb2043058dee113881'
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.9.pkg"
   name 'Python'
   homepage 'https://www.python.org/'
