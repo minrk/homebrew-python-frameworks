@@ -1,6 +1,6 @@
 cask 'python-framework-37' do
-  version '3.7.5'
-  sha256 'e26580e6324c30325c0eeeb8a1d7f5813575443d7fbddfe02c737fbee3fdb137'
+  version '3.7.6'
+  sha256 '7dcbb0ff28f024e5dc4e8b909d1375d49cfbb72ecd96e2988b556b8374c24acd'
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.9.pkg"
   name 'Python'
   homepage 'https://www.python.org/'
