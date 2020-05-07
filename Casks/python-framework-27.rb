@@ -1,6 +1,6 @@
 cask 'python-framework-27' do
-  version '2.7.17'
-  sha256 '69c5bddef6e2f20a47be63410f890b728281449ed64ea450f89d0e81babc83b4'
+  version '2.7.18'
+  sha256 'c570f38b05dd8b112ad21b418cdf51a9816d62f9f44746452739d421be24d50c'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.6.pkg"
   name 'Python'
